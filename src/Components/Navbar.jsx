@@ -23,29 +23,47 @@ const Navbar = () => {
               : "translate-x-full"
           } fixed py-4 text-lg top-0 right-0 transition-all bg-white w-2/3 h-full lg:relative lg:py-0 lg:translate-x-0 lg:translate-y-0 lg:flex lg:flex-row lg:items-center lg:gap-10 lg:min-h-0 lg:bg-transparent lg:text-base lg:w-auto lg:h-auto`}
         >
-          <NavLink className={({ isActive }) => styleActive(isActive)} to="/">
+          <NavLink
+            className={`${({ isActive }) =>
+              styleActive(
+                isActive
+              )} transition-all hover:transition-all hover:text-[#bdbdbd]`}
+            to="/"
+          >
             Main
           </NavLink>
           <NavLink
-            className={({ isActive }) => styleActive(isActive)}
+            className={`${({ isActive }) =>
+              styleActive(
+                isActive
+              )} transition-all hover:transition-all hover:text-[#bdbdbd]`}
             to="gallery"
           >
             Gallery
           </NavLink>
           <NavLink
-            className={({ isActive }) => styleActive(isActive)}
+            className={`${({ isActive }) =>
+              styleActive(
+                isActive
+              )} transition-all hover:transition-all hover:text-[#bdbdbd]`}
             to="projects"
           >
             Projects
           </NavLink>
           <NavLink
-            className={({ isActive }) => styleActive(isActive)}
+            className={`${({ isActive }) =>
+              styleActive(
+                isActive
+              )} transition-all hover:transition-all hover:text-[#bdbdbd]`}
             to="certifications"
           >
             Certifications
           </NavLink>
           <NavLink
-            className={({ isActive }) => styleActive(isActive)}
+            className={`${({ isActive }) =>
+              styleActive(
+                isActive
+              )} transition-all hover:transition-all hover:text-[#bdbdbd]`}
             to="contact"
           >
             Contacts

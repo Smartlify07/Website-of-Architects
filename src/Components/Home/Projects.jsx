@@ -11,7 +11,7 @@ const Projects = () => {
         <ProjectsGrid />
 
         <Link to={"projects"} className="self-end">
-          <button className="bg-[#333] mt-5 py-4 px-7 text-white text-sm flex items-center gap-3 uppercase font-light lg:text-[12px]">
+          <button className="bg-[#333] mt-5 py-4 px-7 text-white text-sm flex items-center gap-3 uppercase font-light transition-all ease-in hover:bg-[#fafafa] hover:text-[#333] lg:text-[12px]">
             All projects <FaArrowRightLong />
           </button>
         </Link>

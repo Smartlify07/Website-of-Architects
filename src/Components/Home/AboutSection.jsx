@@ -36,7 +36,7 @@ const AboutDescription = () => {
         essentially unchanged.
       </p>
 
-      <button className="px-7 border self-start py-4 bg-white font-Roboto text-sm flex items-center gap-4 tracking-wider uppercase">
+      <button className="px-7 border self-start py-4 bg-white font-Roboto text-sm flex items-center gap-4 tracking-wider uppercase transition-all ease-in hover:bg-[#333] hover:text-white">
         Read more <FaRightLong />
       </button>
     </div>
